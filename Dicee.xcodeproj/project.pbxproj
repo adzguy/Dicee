@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25159543245010EE008D228C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25159542245010EE008D228C /* Result.swift */; };
 		256CD4A02444383600C5F3C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CD49F2444383600C5F3C1 /* AppDelegate.swift */; };
 		256CD4A22444383600C5F3C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CD4A12444383600C5F3C1 /* SceneDelegate.swift */; };
 		256CD4A52444383700C5F3C1 /* Dicee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 256CD4A32444383700C5F3C1 /* Dicee.xcdatamodeld */; };
@@ -14,9 +15,12 @@
 		256CD4A92444383F00C5F3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256CD4A82444383F00C5F3C1 /* Assets.xcassets */; };
 		256CD4AC2444383F00C5F3C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256CD4AB2444383F00C5F3C1 /* Preview Assets.xcassets */; };
 		256CD4AF2444383F00C5F3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256CD4AD2444383F00C5F3C1 /* LaunchScreen.storyboard */; };
+		256CD4B72444409E00C5F3C1 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CD4B62444409E00C5F3C1 /* DiceView.swift */; };
+		256CD4B9244440AF00C5F3C1 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CD4B8244440AF00C5F3C1 /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25159542245010EE008D228C /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		256CD49C2444383600C5F3C1 /* Dicee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dicee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		256CD49F2444383600C5F3C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		256CD4A12444383600C5F3C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		256CD4AB2444383F00C5F3C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		256CD4AE2444383F00C5F3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		256CD4B02444383F00C5F3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256CD4B62444409E00C5F3C1 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		256CD4B8244440AF00C5F3C1 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				256CD49F2444383600C5F3C1 /* AppDelegate.swift */,
 				256CD4A12444383600C5F3C1 /* SceneDelegate.swift */,
 				256CD4A62444383700C5F3C1 /* ContentView.swift */,
+				256CD4B62444409E00C5F3C1 /* DiceView.swift */,
+				256CD4B8244440AF00C5F3C1 /* ResultView.swift */,
+				25159542245010EE008D228C /* Result.swift */,
 				256CD4A82444383F00C5F3C1 /* Assets.xcassets */,
 				256CD4AD2444383F00C5F3C1 /* LaunchScreen.storyboard */,
 				256CD4B02444383F00C5F3C1 /* Info.plist */,
@@ -150,9 +159,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				256CD4A52444383700C5F3C1 /* Dicee.xcdatamodeld in Sources */,
+				256CD4B72444409E00C5F3C1 /* DiceView.swift in Sources */,
 				256CD4A02444383600C5F3C1 /* AppDelegate.swift in Sources */,
 				256CD4A72444383700C5F3C1 /* ContentView.swift in Sources */,
+				25159543245010EE008D228C /* Result.swift in Sources */,
 				256CD4A22444383600C5F3C1 /* SceneDelegate.swift in Sources */,
+				256CD4B9244440AF00C5F3C1 /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

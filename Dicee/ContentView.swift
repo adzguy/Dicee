@@ -9,8 +9,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var selectedView = 0
+    @ObservedObject var results = Results()
+    
     var body: some View {
-        Text("Hello, World!")
+        TabView(selection: $selectedView) {
+            DiceView()
+                .tabItem {
+                    Image(systemName: "hand.draw")
+                    Text("Roll Dice")
+            }.tag(0)
+            
+            ResultView(results: results)
+                .tabItem {
+                    Image(systemName: "r.square")
+                    Text("Result")
+            }.tag(1)
+        }.environmentObject(results)
     }
 }
 
